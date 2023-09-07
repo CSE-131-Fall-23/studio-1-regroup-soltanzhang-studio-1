@@ -1,5 +1,4 @@
-package studio1;
-
+package studio1; 
 import java.util.Scanner;
 
 public class Ordered {
@@ -15,6 +14,10 @@ public class Ordered {
 		int y = in.nextInt();
 		System.out.println("Value for z?");
 		int z = in.nextInt();
+		boolean isordered=( x<y&& y<z);
+		System.out.println(isordered);
+		
+		
 
 	}
 
